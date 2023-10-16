@@ -27,3 +27,7 @@ about it at the start of each recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+My Response:
+
+I would say that the invariant of my function would be the array, as well as a and b, because they start each recursive loop as a, 0, and 0, before being overwritten by the new values of the next call.  By using default parameters it forces a world state where the two calculation variables are kept at zero as a base case unless changed with different values.
