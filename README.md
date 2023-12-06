@@ -28,6 +28,7 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
-My Response:
+## My Response
 
-I would say that the invariant of my function would be the array, as well as a and b, because they start each recursive loop as a, 0, and 0, before being overwritten by the new values of the next call.  By using default parameters it forces a world state where the two calculation variables are kept at zero as a base case unless changed with different values.
+Since the function returns an array of values of the fibonacci sequence to certain provided value an invariant of this function could be a similar array that contains the values of the fibonnaci sequence up to the same iteration.  For example if we wanted to compute the fibonacci sequence to 6 places the invariant would be an array containing the values [0 1 1 2 3 5] which we would then compare to the function after it has run to make sure it is correct.
+
