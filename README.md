@@ -30,5 +30,7 @@ your answer to this markdown file.
 
 ## My Response
 
-Since the function returns an array of values of the fibonacci sequence to certain provided value an invariant of this function could be a similar array that contains the values of the fibonnaci sequence up to the same iteration.  For example if we wanted to compute the fibonacci sequence to 6 places the invariant would be an array containing the values [0 1 1 2 3 5] which we would then compare to the function after it has run to make sure it is correct.
+//edited to be more generic using an iterator i.
+
+Since the function returns an array of values of the fibonacci sequence to a given value $i$, therefore an appropriate invariant would be an array that is filled with all the values of the fibonacci sequence up to the given $i$.  For example if we wanted to compute the fibonacci sequence to 6 places the invariant would be an array containing the values [0 1 1 2 3 5] which we would then compare to the function after it has run to make sure it is correct.
 
