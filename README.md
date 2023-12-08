@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12218760&assignment_repo_type=AssignmentRepo)
 # Fibonacci Invariants
 
 Recall the definition of the Fibonacci series: the first number is 0, the second
@@ -26,3 +27,9 @@ about it at the start of each recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+## My Response
+
+//edited to be more generic using an iterator i.
+
+Since the function returns an array of values of the fibonacci sequence to a given value $i$, therefore an appropriate invariant would be an array that is filled with all the values of the fibonacci sequence prior to $i$.  For example if we wanted to compute the fibonacci sequence to 6 places the invariant would be an array containing the values [0 1 1 2 3] which would then be updated to be [0 1 1 2 3 5] for $i$ = 7
