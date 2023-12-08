@@ -32,5 +32,4 @@ your answer to this markdown file.
 
 //edited to be more generic using an iterator i.
 
-Since the function returns an array of values of the fibonacci sequence to a given value $i$, therefore an appropriate invariant would be an array that is filled with all the values of the fibonacci sequence up to the given $i$.  For example if we wanted to compute the fibonacci sequence to 6 places the invariant would be an array containing the values [0 1 1 2 3 5] which we would then compare to the function after it has run to make sure it is correct.
-
+Since the function returns an array of values of the fibonacci sequence to a given value $i$, therefore an appropriate invariant would be an array that is filled with all the values of the fibonacci sequence prior to $i$.  For example if we wanted to compute the fibonacci sequence to 6 places the invariant would be an array containing the values [0 1 1 2 3] which would then be updated to be [0 1 1 2 3 5] for $i$ = 7
